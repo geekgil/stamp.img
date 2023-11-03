@@ -14,8 +14,8 @@ def getImg(input):
     if url:
         with open(filename, 'r+b', encoding = 'utf-8') as currentImg:
            wget.download(url[0], currentImg)
-    else:
-        # caso não seja uma url, e sim um caminho local de arquivo
+    # TO-DO: else:
+    #     caso não seja uma url, e sim um caminho local de arquivo
 
 
 print("STAMP.IMG\n\nCarimbe as suas imagens com uma marca d'água invisível!\n")
